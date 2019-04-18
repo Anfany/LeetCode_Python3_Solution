@@ -1,6 +1,6 @@
 # -*- coding：utf-8 -*-
 # &Author  AnFany
-# 20_Valid_Parentheses
+# 20_Valid_Parentheses 有效的括号
 
 class Solution:
     def isValid(self, s: str) -> bool:
