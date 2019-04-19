@@ -10,5 +10,5 @@
 | **20**|  [**有效的括号**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E6%A0%88/20%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md)| 简单| [**栈**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E6%A0%88)|
 | **23** |  [**合并K个排序链表**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E5%A0%86/23%20%E5%90%88%E5%B9%B6%20k%20%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.md)| 困难| [**堆**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E5%A0%86)|
 | **292** |  [**Nim游戏**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E8%84%91%E7%AD%8B%E6%80%A5%E8%BD%AC%E5%BC%AF/292%20Nim%E6%B8%B8%E6%88%8F.md)| 简单| [**脑筋急转弯**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E8%84%91%E7%AD%8B%E6%80%A5%E8%BD%AC%E5%BC%AF)|
-| **587** |  [**安装栅栏**]()| 困难| [**几何**]()|
+| **587** |  [**安装栅栏**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E5%87%A0%E4%BD%95/587%20%E5%AE%89%E8%A3%85%E6%A0%85%E6%A0%8F.md)| 困难| [**几何**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E5%87%A0%E4%BD%95)|
 
