@@ -19,12 +19,12 @@ class Solution:
         area_island = 0
 
         # 首先任意获取一个陆地
-        for r in range(row):
-            for c in range(column):
-                if grid[r][c] == 1 and (r, c) not in land_dict:
+        for o in range(row):
+            for l in range(column):
+                if grid[o][l] == 1 and (o, l) not in land_dict:
                     # 开始深度优先搜索, 开始的需要搜索的陆地列表
-                    current_land = [(r, c)]
-                    land_dict[(r, c)] = 0
+                    current_land = [(o, l)]
+                    land_dict[(o, l)] = 0
                     # 岛屿面积
                     island_area = 1
                     while current_land:
@@ -61,3 +61,4 @@ class Solution:
                     area_island = max(area_island, island_area)
 
         return max(0, area_island)
+
