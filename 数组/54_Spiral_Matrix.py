@@ -9,7 +9,6 @@ class Solution:
         # matrix为空集
         if not matrix:
             return matrix
-
         # 获得m，n
         m, n = len(matrix), len(matrix[0])
 
@@ -30,11 +29,14 @@ class Solution:
         while stop_sign:
             stop_sign = 0
             # 向右走
-            while start_n < n -1 and (start_m, start_n + 1) not in poss_dict:
+            while start_n < n - 1 and (start_m, start_n + 1) not in poss_dict:
                 start_n += 1
                 poss_dict[(start_m, start_n)] = 0
                 poss_list.append(matrix[start_m][start_n])
                 stop_sign = 1
+            
+            if not stop_sign:
+                break
 
             # 向下走
             while start_m < m - 1 and (start_m + 1, start_n) not in poss_dict:
@@ -42,6 +44,11 @@ class Solution:
                 poss_dict[(start_m, start_n)] = 0
                 poss_list.append(matrix[start_m][start_n])
                 stop_sign = 1
+                
+            if not stop_sign:
+                break
+    
+                
 
             # 向左走
             while start_n > 0 and (start_m, start_n - 1) not in poss_dict:
@@ -49,6 +56,10 @@ class Solution:
                 poss_dict[(start_m, start_n)] = 0
                 poss_list.append(matrix[start_m][start_n])
                 stop_sign = 1
+            
+            if not stop_sign:
+                break
+
 
             # 向上走
             while start_m > 0 and (start_m - 1, start_n) not in poss_dict:
@@ -56,7 +67,10 @@ class Solution:
                 poss_dict[(start_m, start_n)] = 0
                 poss_list.append(matrix[start_m][start_n])
                 stop_sign = 1
-        return poss_list
+                
+            if not stop_sign:
+                break
 
+        return poss_list
 
 
