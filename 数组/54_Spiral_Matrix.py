@@ -30,14 +30,14 @@ class Solution:
         while stop_sign:
             stop_sign = 0
             # 向右走
-            while start_n < n and (start_m, start_n + 1) not in poss_dict:
+            while start_n < n -1 and (start_m, start_n + 1) not in poss_dict:
                 start_n += 1
                 poss_dict[(start_m, start_n)] = 0
                 poss_list.append(matrix[start_m][start_n])
                 stop_sign = 1
 
             # 向下走
-            while start_m < m and (start_m + 1, start_n) not in poss_dict:
+            while start_m < m - 1 and (start_m + 1, start_n) not in poss_dict:
                 start_m += 1
                 poss_dict[(start_m, start_n)] = 0
                 poss_list.append(matrix[start_m][start_n])
