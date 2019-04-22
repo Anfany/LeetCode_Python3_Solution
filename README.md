@@ -3,7 +3,7 @@
 基于Python3的LeetCode解题方案，题目网址：https://leetcode-cn.com/
 
 
-| 题号 | 题名 | <font color=#0099ff size=12 face="黑体">黑体</font> | 标签 |
+| 题号 | 题名 | <font color=#0099ff size=19 face="黑体">黑体</font> | 标签 |
 | :------:| :------| :------: | :------|
 | **1**|  [**两数之和**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E6%95%B0%E7%BB%84/1%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md)| 简单| [**数组**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E6%95%B0%E7%BB%84)，哈希表|
 | **2**|  [**两数相加**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E9%93%BE%E8%A1%A8/2%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md)| 中等| [**链表**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E9%93%BE%E8%A1%A8)，数学|
