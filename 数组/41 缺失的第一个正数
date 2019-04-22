@@ -1,0 +1,55 @@
+# 缺失的第一个正数
+
+
+#### 一、题目
+
+给定一个未排序的整数数组，找出其中没有出现的最小的正整数。
+
+* 示例 1:
+```
+输入: [1,2,0]
+输出: 3
+```
+* 示例 2:
+```
+输入: [3,4,-1,1]
+输出: 2
+```
+* 示例 3:
+```
+输入: [7,8,9,11,12]
+输出: 1
+```
+* 说明:
+```
+你的算法的时间复杂度应为O(n)，并且只能使用常数级别的空间。
+```
+
+#### 二、python3程序
+
+```python
+# -*- coding：utf-8 -*-
+# &Author  AnFany
+
+# 41_First_Missing_Positive 缺失的第一个正数
+
+
+class Solution:
+    def firstMissingPositive(self, nums: List[int]) -> int:
+        # 数组的长度
+        length = len(nums)
+        # 首先创建一个和数组nums一样长的数组
+        new_nums = [0] * length
+
+        # 将数组nums中，满足要求的数值，按序存储到新的数组中
+        for i in nums:
+            if 0 < i <= length:  # 小于等于0的不用存储，某个数值大于数组长度，也不需要存储，因为缺失的正数肯定小于该值
+                new_nums[i - 1] = i
+
+        #  再次遍历数组，只要索引加1与值不符合，则说明是缺失的
+        for index, value in enumerate(new_nums):
+            if index + 1 != value:
+                return index + 1
+        # 说明缺失的是最后一个值
+        return length + 1
+```
