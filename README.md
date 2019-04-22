@@ -4,7 +4,7 @@
 
 
 | 题号 | 题名 | 难度 | 标签 |
-| :------:| :------| :------: |:------: |
+| :------:| :------| :------: |------: |
 | **2**|  [**两数相加**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E9%93%BE%E8%A1%A8/2%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md)| 中等| [**链表**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E9%93%BE%E8%A1%A8)，数学|
 | **3**|  [**无重复字符的最长子串**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E5%93%88%E5%B8%8C%E8%A1%A8/3%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md)| 中等| [**哈希表**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E5%93%88%E5%B8%8C%E8%A1%A8)，双指针，字符串，Sliding Window|
 | **20**|  [**有效的括号**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E6%A0%88/20%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md)| 简单| [**栈**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E6%A0%88)|
