@@ -1,7 +1,7 @@
 # -*- coding：utf-8 -*-
 # &Author  AnFany
 
-# 118_Pascal's_Triangle 杨辉三角
+# 118_Pascal's_Triangle_I 杨辉三角I
 
 
 class Solution:
