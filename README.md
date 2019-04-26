@@ -41,3 +41,9 @@
 | **771**|  [**宝石与石头**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E5%93%88%E5%B8%8C%E8%A1%A8/771%20%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.md)| ![image](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/1easy.png)| [**哈希表**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E5%93%88%E5%B8%8C%E8%A1%A8)|
 | **885** |  [**螺旋矩阵III**](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/%E6%95%B0%E5%AD%A6/885%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5III.md)| ![image](https://github.com/Anfany/LeetCode_Python3_Solution/blob/master/2middle.png)| [**数学**](https://github.com/Anfany/LeetCode_Python3_Solution/tree/master/%E6%95%B0%E5%AD%A6)|
 
+
+------------
+扫描下方二维码，关注获取更多。
+
+![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
+
