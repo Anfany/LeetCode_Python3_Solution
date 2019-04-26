@@ -1,0 +1,43 @@
+# -*- coding：utf-8 -*-
+# &Author  AnFany
+
+# 67_Add_Binary 二进制求和
+
+
+
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        # 二进制求和，不用各自转为十进制数字，求和后，在转为二进制
+        # 可以直接求和，0+0=0，0+1=1，1+1进1余0，1+1+1进1余1
+
+        len_a, len_b = len(a), len(b)  # 字符串长度
+
+        if not len_a or not len_b:
+            return a + b
+
+        # 将2个字符串变为同样的长度
+        if len_b > len(a):
+            a = '0' * (len_b - len_a) + a
+        else:
+            b = '0' * (len_a - len_b) + b
+
+        # 求和的二进制字符串
+        sum_binary_str = ''
+
+        carry = 0  # 进位
+
+        for i, j in zip(a[::-1], b[::-1]):  # 从低位开始计算，因此需要反转
+            int_i, int_j = int(i), int(j)
+            sum_int = carry + int_i + int_j
+            sum_binary_str += str(sum_int % 2)
+            carry = sum_int // 2
+
+        # 最后判断进位是否为1
+        sum_binary_str += '1' * carry
+        return sum_binary_str[::-1]  # 从低位开始的，需要再次反转
+
+
+
+
+
+
