@@ -8,7 +8,7 @@
 class Solution:
 
     def __init__(self):
-        self.max_num = 2 ** 31
+        self.max_num = 2 ** 31 - 1
         self.min_num = - 2 ** 31
 
     def reverse(self, x: int) -> int:
